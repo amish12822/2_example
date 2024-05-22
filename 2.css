@@ -4,28 +4,60 @@ body{
 #it1{
     width: 100%;
     overflow: auto;
+    margin-top: 2%;
 }
-#id9{
+#it9{
     float: left;
-    width:50%;
+    width:25%;
+    height: 25%;
+}
+#it9 img{
+    width: 100%;
+    height: 100%;  
 }
 #it10{
     float: right;
-    width: auto;
-    display: flex;
+    width: 72%; 
+    height: 72%;
     color: rgb(49, 48, 48);
     font-size:large;
+    margin-top: 5px;
+    overflow: auto;
+}
+#it10 nav{
+    
+    width: 11%;
+    float: right;
     text-align: center;
-    margin-top: 16px;
+    padding: 8px 2px 8px 2px;
+    margin-right: 8px ;
 }
-header div nav{
-    margin: 10px 10px 10px 10px;
-    padding: 15px 15px 15px 15px;
-}
-header div nav:hover{
+#it10 nav:hover{
     color: white;
     background-color: black;
     border-radius: 10px;
+}
+
+
+#id5{
+    width: 100%;
+    overflow: auto;
+}
+#it2{
+    width:35%;
+    float: left;
+    font-size: x-large;
+    top: 25%;
+    position:absolute;  
+    left: 4%;  
+}
+#it3{
+    width: 60%;
+    float: right;
+    margin-top: 4%;
+}
+#it3 img{
+    width: 100%;
 }
 #it4 img{
     width: 10%;
@@ -34,26 +66,10 @@ header div nav:hover{
     margin-top: 25px;
     margin-bottom: 30px;
 }
-#id5{
-    width: 100%;
-    overflow: auto;
-}
-#it2{
-    width:36%;
-    float: left;
-    margin-top: 6%;
-    margin-left: 50px ;
-    font-size: x-large; 
-}
-#it3{
-    width: 60%;
-    float: right;
-}
 #it6{
     text-align: justify;
     color: gray;
 }
-
 #it7, #it8{
     color: white;
     background-color: rgb(75, 5, 141);
@@ -69,4 +85,75 @@ header div nav:hover{
     height: auto;
     margin-left: 25px;
 }
+
 /* 1 page com */
+
+#it11{
+    width: 100%;
+    overflow: auto;
+}
+#it12{
+    width: 60%;
+    float: left;
+    margin-top: 5%;
+}
+#it12 img{
+    width: 100%;
+}
+#it13{
+    width: 39%;
+    float: right;
+    margin-top: 10%;
+}
+#it13 p{
+    text-align: justify;
+    color: gray;
+}
+#it13 nav img{
+    width: 8%;
+    height: 8%;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 2 page com */
+
+
+
+
+
+
+#it15 , #it16{
+    border: 1px solid red;
+}
+
+#it14{
+    width: 100%;
+    overflow: auto;
+}
+#it15{
+    width: 65%;
+    float: right;
+    margin-top: 13%;
+}
+#it15 img{
+    width: 100%;
+}
+
+
+#it16{
+    width:34%;
+    float: left;
+    margin-top: 20%;
+}
+
+
