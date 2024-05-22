@@ -23,6 +23,7 @@ body{
     font-size:large;
     margin-top: 5px;
     overflow: auto;
+    font-family:'Times New Roman', Times, serif;
 }
 #it10 nav{
     
@@ -50,11 +51,13 @@ body{
     top: 25%;
     position:absolute;  
     left: 4%;  
+    font-family:'Times New Roman', Times, serif;
 }
 #it3{
     width: 60%;
     float: right;
     margin-top: 4%;
+    font-family:'Times New Roman', Times, serif;
 }
 #it3 img{
     width: 100%;
@@ -91,11 +94,12 @@ body{
 #it11{
     width: 100%;
     overflow: auto;
+    font-family:'Times New Roman', Times, serif;
 }
 #it12{
     width: 60%;
     float: left;
-    margin-top: 5%;
+    margin-top: 11%;
 }
 #it12 img{
     width: 100%;
@@ -103,16 +107,28 @@ body{
 #it13{
     width: 39%;
     float: right;
-    margin-top: 10%;
+    margin-top: 8%;
+    font-size: x-large;
 }
 #it13 p{
     text-align: justify;
+    margin-right: 10%;
     color: gray;
 }
 #it13 nav img{
     width: 8%;
     height: 8%;
     margin-left: 20px;
+}
+
+
+
+
+
+
+ 
+#it17{
+    font-size: medium;
 }
 
 
@@ -132,18 +148,16 @@ body{
 
 
 
-#it15 , #it16{
-    border: 1px solid red;
-}
+
 
 #it14{
     width: 100%;
     overflow: auto;
 }
 #it15{
-    width: 65%;
+    width:60%;
     float: right;
-    margin-top: 13%;
+    margin-top: 12%;
 }
 #it15 img{
     width: 100%;
@@ -153,7 +167,153 @@ body{
 #it16{
     width:34%;
     float: left;
-    margin-top: 20%;
+    margin-top: 10%;
+    position: absolute;
+    font-size: x-large;
 }
+
+#it16{
+    left: 3%;
+}
+
+
+
+
+/* jsdhbcsdhbdsfhbsdh*/
+
+
+
+.skills-bar{
+    width: 580px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+     
+}
+
+.skills-bar .bar{
+    margin: 20px 0;
+}
+
+.skills-bar .bar.bar:first-child{
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+100%{
+    opacity: 1;
+}
+
+
+}
+
+
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),
+                      0px 1px rgb(0, 76, 255);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;                  
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background: #6665ee;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
+
+.progress-line.html span{
+    width: 95%;
+}
+
+.progress-line.javascript span{
+    width: 65%;
+}
+.progress-line.css span{
+    width: 80%;
+}
+.progress-line.c span{
+    width: 85%;
+}
+.progress-line.python span{
+    width: 75%;
+}
+
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5 1.5 linear forwards;
+
+}
+.bar .progress-line span::after{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5 1.5 linear forwards;
+}
+
+@keyframes showText2 {
+    100%{
+        opacity: 1;
+    }
+
+    
+}
+
+
+footer{
+    margin-top: 30%;
+}
+
+
+
+
+
+
 
 
